@@ -8,10 +8,6 @@
 
 This CocoaPod provides the ability to use a two dimensional array that can be used using row and column index.
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
 
 * ARC
