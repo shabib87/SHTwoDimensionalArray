@@ -16,7 +16,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 * ARC
 * iOS8
-* 
+
 ## Installation
 
 SHTwoDimensionalArray is available through [CocoaPods](http://cocoapods.org). To install
