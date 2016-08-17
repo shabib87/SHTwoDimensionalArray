@@ -22,7 +22,7 @@ pod "SHTwoDimensionalArray"
 
 ## Author
 
-Ahmad Shabibul Hossain, shabib.hossain@iappdragon.com
+Ahmad Shabibul Hossain, shabib.sust@gmail.com
 
 ## License
 

@@ -1,0 +1,14 @@
+PODS:
+  - SHTwoDimensionalArray (0.1.0)
+
+DEPENDENCIES:
+  - SHTwoDimensionalArray (from `../`)
+
+EXTERNAL SOURCES:
+  SHTwoDimensionalArray:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SHTwoDimensionalArray: 5f980961742d5ddbb10e275b3cecbe56b363eac6
+
+COCOAPODS: 0.39.0

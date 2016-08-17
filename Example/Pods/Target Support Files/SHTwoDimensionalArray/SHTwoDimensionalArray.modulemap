@@ -1,0 +1,6 @@
+framework module SHTwoDimensionalArray {
+  umbrella header "SHTwoDimensionalArray-umbrella.h"
+
+  export *
+  module * { export * }
+}
