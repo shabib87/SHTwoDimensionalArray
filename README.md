@@ -36,7 +36,7 @@ NSString *foo = [twoDArray objectInRow:0 column:0];
 
 ## Author
 
-Ahmad Shabibul Hossain, shabib.sust@gmail.com
+Ahmad Shabibul Hossain
 
 ## License
 
