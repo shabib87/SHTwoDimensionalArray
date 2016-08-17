@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SHTwoDimensionalArray_Tests' do
+  pod 'SHTwoDimensionalArray', :path => '../'
+  
+  
+end
