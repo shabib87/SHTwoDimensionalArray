@@ -12,6 +12,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		F05FC4301D68265E006650FA /* SHTwoDArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F05FC42F1D68265D006650FA /* SHTwoDArrayTests.m */; };
 		FDC1338A72D69B9D6280E017 /* Pods_SHTwoDimensionalArray_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2578DC4AD32221201526F7 /* Pods_SHTwoDimensionalArray_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		AEE5676015A6AF837D44F686 /* Pods-SHTwoDimensionalArray_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHTwoDimensionalArray_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHTwoDimensionalArray_Tests/Pods-SHTwoDimensionalArray_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD2578DC4AD32221201526F7 /* Pods_SHTwoDimensionalArray_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHTwoDimensionalArray_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0A2E5CADADCCDD2E0B8A81 /* Pods-SHTwoDimensionalArray_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHTwoDimensionalArray_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHTwoDimensionalArray_Tests/Pods-SHTwoDimensionalArray_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F05FC42F1D68265D006650FA /* SHTwoDArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHTwoDArrayTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			children = (
 				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				F05FC42F1D68265D006650FA /* SHTwoDArrayTests.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F05FC4301D68265E006650FA /* SHTwoDArrayTests.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
