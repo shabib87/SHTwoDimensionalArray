@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SHTwoDimensionalArray'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Easy to use two dimensional array for iOS applications.'
 
 
@@ -21,5 +21,5 @@ This CocoaPod provides the ability to use a two dimensional array that can be us
   s.source_files = 'SHTwoDimensionalArray/Classes/**/*'
 
   s.frameworks          = 'Foundation'
-  
+
 end
