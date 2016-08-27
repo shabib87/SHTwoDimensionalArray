@@ -16,5 +16,10 @@ This CocoaPod provides the ability to use a two dimensional array that can be us
   s.social_media_url = 'https://twitter.com/shabib_hossain'
 
   s.ios.deployment_target = '7.0'
+  s.requires_arc        = true
+
   s.source_files = 'SHTwoDimensionalArray/Classes/**/*'
+
+  s.frameworks          = 'Foundation'
+  
 end
