@@ -20,8 +20,16 @@
 - (void)setUp {
     [super setUp];
     
-    self.twoDArray = [SHTwoDimensionalArray arrayWithRows:1 andColumns:1];
+    self.twoDArray = [SHTwoDimensionalArray arrayWithRows:2 andColumns:2];
     XCTAssertNotNil(self.twoDArray, "Allocation passed.");
+}
+
+- (void)testTwoDarrayNotNilAfterSetObject {
+    
+    [self.twoDArray setObject:@"Foo" inRow:0 column:0];
+    
+    NSString *fooString = [self.twoDArray objectInRow:0 column:0];
+    XCTAssertNotNil(fooString, "Object at index[0][0] can not be nil");
 }
 
 - (void)testTwoDArraySetAndGetObject {
@@ -29,21 +37,21 @@
     [self.twoDArray setObject:@"Foo" inRow:0 column:0];
     
     NSString *fooString = [self.twoDArray objectInRow:0 column:0];
-    
-    XCTAssertEquals(@"foo", fooString, "Object set and object get are equal.");
+    XCTAssertEqualObjects(@"Foo", fooString, "Object at index[0][0] and foo string should be equal");
 }
 
 - (void)testTwoDArrayIndexOverWriting {
     
+    [self.twoDArray setObject:@"Foo" inRow:0 column:0];
     [self.twoDArray setObject:@"Bar" inRow:1 column:1];
     
-    NSString *barString = [self.twoDArray objectInRow:0 column:0];
+    NSString *barString = [self.twoDArray objectInRow:1 column:1];
     
-    XCTAssertNotEqual(@"foo", barString, "Object at index[0][0] and object at index[1][1] are different.");
+    XCTAssertNotEqualObjects(@"foo", barString, "Object at index[0][0] and object at index[1][1] are different.");
 }
 
 - (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    self.twoDArray = nil;
     [super tearDown];
 }
 

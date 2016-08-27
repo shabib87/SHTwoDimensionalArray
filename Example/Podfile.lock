@@ -1,5 +1,5 @@
 PODS:
-  - SHTwoDimensionalArray (0.1.0)
+  - SHTwoDimensionalArray (0.1.1)
 
 DEPENDENCIES:
   - SHTwoDimensionalArray (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SHTwoDimensionalArray: 1090496dd36af6d2b05c3ca392a0a086ee6bbc93
+  SHTwoDimensionalArray: e65bc82c6789ebab09d0cbba005efea9329d3e1e
 
 COCOAPODS: 0.39.0
