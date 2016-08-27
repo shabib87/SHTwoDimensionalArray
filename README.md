@@ -11,7 +11,7 @@ This CocoaPod provides the ability to use a two dimensional array that can be us
 ## Requirements
 
 * ARC
-* iOS6
+* iOS7
 
 ## Installation
 
