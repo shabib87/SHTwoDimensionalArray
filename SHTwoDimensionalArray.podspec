@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SHTwoDimensionalArray'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Easy to use two dimensional array for iOS applications.'
 
 
